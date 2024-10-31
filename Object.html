@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Javascript Objects</h1>
+    <p id="demo"></p>
+
+    <script>
+      var person = {
+        firstName: "I",
+        age: 20,
+        school: "BAF Shaheen",
+      };
+      document.getElementById(
+        "demo"
+      ).innerHTML = `${person.firstName} am ${person.age} years old and my School name is ${person.school}`;
+      var value = Math.acos(-1);
+      document.write(`Demo1 Test Value : ${value} <br>`);
+      document.write(`Demo1 Test Value : ${Math.asin(-1)} <br>`);
+      document.write(`Demo1 Test Value : ${Math.atan(0.5)} <br>`);
+    </script>
+  </body>
+</html>
